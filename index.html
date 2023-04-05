@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+D0ts&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Zen+D0ts&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <titile>Flatdango</titile>
+</head>
+
+<body>
+    <nav class="navbar bg-dark mt-4 test">
+        <div class="container-fluid text-bg-dark d-flex justify-content-creator">
+            <h2 class="text-light" id="headTitle">FLATDANGO</h2>
+
+
+
+            <!--<form class="d-flex">
+                <input class="form-control" type="text" placeholder="search movie title" id="search">
+                <button class="btn btn-outline-info ms-1" id="searchBtn">SEARCH</button>
+            </form> -->
+        
+        </div>
+
+        <div class="container-fluid text-bg-dark d-flex justify-content-center">
+            <!-- <a class="navbar-brand text-light">FLATDANGO</a> -->
+            <h3 class="text-light" id="description">For The Love Of Movies</h3>
+        </div>
+
+    </nav>
+
+    <div class="container mt-5" id="main-container">
+        <div class="row" id="film-details">
+            <div class="row mt-3" id="">
+
+                <div class="card col-4" id="listCont">
+
+                    <div>
+                        <h3 class="border rounded border-primary mt-2 bg-danger" id="showingTitle">MOVIES SHOWING</h3>
+                        <ul class="list-group" id="showingMovie">
+
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul id="soldOut">
+
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card col-8" id="movie">
+                    <h4 class="card-title border border-success mt-2 rounded bg-info" id="filmTitle">Django Unchained</h4>
+                    <img class="card-img-top"
+                        src="https://www.imdb.com/title/tt1853728/"
+                        alt="Film Details" id="poster">
+                        <p class="border border-primary mt-2 rounded" id="movieDescription">The story follows an enslaved black man who trains under a German bounty hunter, 
+                            with the ultimate goal of reuniting with his long-lost wife.</p>
+
+                    <ul class="d-flex justify-content-center me-2" id="mviedet">
+                            <li class="border border-success rounded me-2" id="runtime"><span class="border-success me-2">Runtime</span> 108 minutes</li>
+                            <li class="border border-success rounded me-2" id="showtime">Showtime: 04:16PM</li>
+                            <li class="border border-success rounded me-2" id="ticketsAvailable">Available Tickets 67</li>
+                    </ul>
+
+                    <button type="button" class="btn btn-warning" id="buyTicket">Buy Ticket</button>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

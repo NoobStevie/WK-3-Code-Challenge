@@ -1,0 +1,53 @@
+#filmTitle{
+    text-align: center;
+}
+
+body{
+    background-image: url("https://cdn.trendhunterstatic.com/thumbs/380/cool-backgrounds.jpeg?auto=webp");
+}
+
+#showingTitle{
+    text-align: center;
+
+}
+#headTitle{
+    text-align: center;
+}
+#mviedet{
+    list-style: none;
+}
+/* #runtime{
+    background-color: rgb(0, 92, 0);
+} */
+#poster{
+    width: 680px;
+    height: 610px;
+}
+
+.test{
+    margin: 20px;
+    border-radius: 8px;
+
+}
+
+#headTitle {
+    font-family: 'Zen Dots', cursive;
+}
+#descript{
+    font-family: 'Caveat', cursive;
+}
+#movieDescription{
+    text-align: center;
+}
+#mvie{
+    background-image: url("https://cdn.trendhunterstatic.com/phpthumbnails/380/380171/380171_2_800.jpeg?auto=webp");
+}
+
+.cinema:hover {
+    cursor: pointer;
+    padding: 20px;
+}
+
+#listCont{
+    background-image: url("https://images.unsplash.com/photo-1615715757401-f30e7b27b912?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMTI1NDUzfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
+}
